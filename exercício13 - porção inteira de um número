@@ -1,0 +1,17 @@
+ #Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+
+#primeiro código:
+
+import math 
+n = float (input("Digite um número: "))
+n1 = math.trunc(n)
+print (f"O número digitado foi {n}, e a sua porção inteira é: {n1}")
+
+#segundo código:
+from math import trunc
+n = float (input("Digite um número: "))
+print (f"O número digitado foi {n} e a sua porção inteira é: {trunc(n)}")
+
+#terceiro código
+n = float (input("Digite um número: "))
+print (f"O número digitado foi {n} e a sua porção inteira é: {int(n)}")
