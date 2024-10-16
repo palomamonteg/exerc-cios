@@ -1,0 +1,13 @@
+#Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. 
+#O programa deverá escrever na tela se o usuário venceu ou perdeu.
+
+from random import randint
+pc = randint(0,5)
+print ('---'*20)
+print('Estou pensando em um número entre 0 e 5! Você consegue advinhar qual?')
+print ('---'*20)
+play = int(input('Em qual número eu pensei?: '))
+if pc == play:
+    print(f'Parabéns!!! Você acertou. Eu pensei no número {pc}.')
+else:
+    print(f'Ops! Você errou. Eu pensei no número {pc}. Tente novamento!')
