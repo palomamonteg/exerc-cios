@@ -1,0 +1,17 @@
+''' Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento: à vista dinheiro/cheque: 10% de desconto, 
+à vista no cartão: 5% de desconto, em até 2x no cartão: preço formal, 3x ou mais no cartão: 20% de juros.'''
+
+p=float(input('Informe o preço do produto: '))
+pag=int(input("Informe a condiçao de pagamento?\n[1] à vista - dinheiro/pix/cheque;\n[2] à vista - cartão;\n[3] 2x no cartão;\n[4] 3x ou mais no cartão.\nInforme a opção desejada: "))
+if pag == 1:
+    print(f'Sua compra no valor de R${p} irá custar R${p - (p*10)/100}.')
+elif pag == 2:
+    print(f'Sua compra no valor de R${p} irá custar R${p - (p*5)/100}.')
+elif pag == 3:
+    print(f'O valor do produto é: R${p}.')
+elif pag == 4:
+    cal = p + (p*20)/100
+    x=int(input(f'Você deseja parcelar em quantas vezes no cartão? '))
+    print(f'Sua compra no valor de R${p} irá custar R${cal} divido em {x} vezes. Totalizando {x} parcelas de R${cal/x}.')
+else:
+    print('Condição de pagamento inválida. Tente novamente!')
