@@ -1,0 +1,36 @@
+#Crie um programa que faça o computador jogar Jokenpô com você.
+
+from random import randint
+itens = ('pedra', 'papel', 'tesoura')
+computador = randint(0,2)
+print('Escolha uma das opções:\n[0] - Pedra\n[1] - papel\n[2] - tesoura')
+jogador=int(input('Qual opção você escolheu? '))
+print(f'- Você escolheu {itens[jogador]}')
+print(f'- O computador escolheu {itens[computador]}')
+if computador == 0:
+    if jogador == 0:
+        print('EMPATE')
+    elif jogador == 1:
+        print('Você venceu! Parabéns!!!')
+    elif jogador == 2:
+        print('Ops! Você perdeu.')
+    else:
+        print('Opção inválida!')
+elif computador == 1:
+    if jogador == 1:
+        print('EMPATE')
+    elif jogador == 2:
+        print('Você venceu! Parabéns!!!')
+    elif jogador == 0:
+        print('Ops! Você perdeu.')
+    else:
+        print('Opção inválida!')
+elif computador == 2:
+    if jogador == 2:
+        print('EMPATE')
+    elif jogador == 0:
+        print('Você venceu! Parabéns!!!')
+    elif jogador == 1:
+        print('Ops! Você perdeu.')
+    else:
+        print('Opção inválida!')
