@@ -10,7 +10,7 @@ while jogador != pc:
     jogador = int(input('Digite seu palpite: '))
     print('-'*60)
     if jogador != pc:
-        print(f'Você errou! Eu estava pensando no número {pc}.')
+        print(f'Você errou! Tente novamente.')
         cont = cont + 1
     elif jogador == pc:
         print(f'Yeees, você acertou! Eu realmente estava pensando no número {pc}.')
