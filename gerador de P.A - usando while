@@ -1,0 +1,8 @@
+n1=int(input('Primeiro termo: '))
+n2=int(input('Razão da P.A: '))
+termo = n1
+cont = 1
+while cont <=10:
+    print (f'{termo}', end = ' ')
+    termo = termo + n2
+    cont = cont + 1
