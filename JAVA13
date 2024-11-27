@@ -1,0 +1,21 @@
+
+//Imprima números ímpares de 0 a 50#
+
+package Fundamentos2;
+
+public class atv3 {
+	public static void main(String[] args) {
+		int n = 1, c = 0;
+		while ( c <50 ) {
+			c++;
+			n = c %2;
+			if (n != 0) {
+			System.out.println(c);	
+			}
+	
+		
+
+}
+}
+	
+}
