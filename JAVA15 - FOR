@@ -1,0 +1,11 @@
+// Escreva um algoritmo para imprimir os números na ordem inversa.
+
+package Fundamentos2;
+
+public class atv7 {
+	public static void main (String[] args) {
+		for (int i = 10; i > 0; i--) {
+				System.out.println(i);
+		}
+	}
+}
