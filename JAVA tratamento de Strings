@@ -103,6 +103,33 @@ public class atv7 {
 
 ....................
 
+package Fundamentos3;
+
+public class atv15 {
+	public static void main(String[] args) {
+	String arraytexto[] = {"a", "vida", "é", "bela"};
+	for (int i = 0; i < arraytexto.length; i++) {
+		System.out.println(arraytexto[i].toUpperCase());
+	}
+	}
+}
+
+
+.......................
+
+
+package Fundamentos3;
+
+public class atv15 {
+	public static void main(String[] args) {
+	String arraytexto[] = {"a", "vida", "é", "bela"};
+	for (int i = arraytexto.length - 1; i > 0; i--) { // -> escrever de trás p frente. 
+		System.out.println(arraytexto[i].toUpperCase() + " ");
+	}
+	}
+}
+
+
 
 
 
