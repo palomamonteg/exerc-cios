@@ -1,0 +1,47 @@
+package Fundamentos3;
+
+public class atv1 {
+	public static void main(String[] args) {
+	String str = "Hello";
+	String resultado = str.replace("l", "w");
+	System.out.println(resultado);
+}
+}
+..........
+
+package Fundamentos3;
+
+public class atv5 {
+	public static void main(String[] args) {
+		String str = "Hello";
+		String resultado = str.toUpperCase(); -
+		System.out.println(resultado);
+	}
+}
+
+..............
+
+package Fundamentos3;
+
+public class atv5 {
+	public static void main(String[] args) {
+		String str = "Hello";
+		//String resultado = str.toUpperCase() -> MAIÚSCULO; 
+		//String resultado = str.toLowerCase( )  -> min;
+		//String resultado = str.trim(); //Tira os espaços
+		char c = str.charAt(1);
+		System.out.println(c);
+	}
+}
+
+............................
+
+package Fundamentos3;
+
+public class atv6 {
+	public static void main(String[] args) {
+		String str = "Hello";
+		char c = str.charAt(1);
+		System.out.println(c);
+	}
+}
