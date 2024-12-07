@@ -1,0 +1,40 @@
+//entrada e saída  
+
+package Minhaclasse;
+
+import java.util.Scanner;
+
+public class atv1 {
+	public static void main (String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	System.out.println("Digite um valor inteiro: ");
+	int valor;
+	valor=entrada.nextInt();
+	System.out.println("O valor digitado foi: " + valor );
+
+	}
+	
+
+}
+
+........................
+
+//print formatado
+
+package Minhaclasse;
+
+public class atv2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numero = 10;
+		float numero2 = 5.5f;
+		String nome = "Ana";
+		System.out.println("O número informado é: " + numero); 
+		System.out.printf("O meu nome é %s e o meu número2 é: %.2f" , nome, numero2);
+				
+ 
+	}
+
+}
+
