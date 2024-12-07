@@ -1,16 +1,18 @@
-package aula01;
+//entrada e saída  
+
+package Minhaclasse;
 
 import java.util.Scanner;
 
-public class exemplo09 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner entrada = new Scanner(System.in);
-		System.out.println("Digite um número: ");
-		double resp = entrada.nextDouble();
-		System.out.println(resp);
+public class atv1 {
+	public static void main (String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	System.out.println("Digite um valor inteiro: ");
+	int valor;
+	valor=entrada.nextInt();
+	System.out.println("O valor digitado foi: " + valor );
 
 	}
+	
 
 }
