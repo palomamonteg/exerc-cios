@@ -1,0 +1,10 @@
+n=[2,5,3,1]
+n[3]=7
+n.append(9) #adicionar ao fim da lista
+n.sort() #coloca em ordem
+n.sort(reverse=True) #coloca de trás pra frente
+n.insert(3,0) #adicionar algo a lista mostrando em qual posição
+#n.pop() #elimina o último valor da lista
+#n.pop(2) #elimina o número que está na posição 2 da lista
+print(n)
+print(f'Essa lista tem {len(n)} elementos')
